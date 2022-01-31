@@ -40,6 +40,9 @@
 		D25EB73127A86BCC00974DC5 = {
 			isa = PBXGroup;
 			children = (
+				D25EB75427A86E5100974DC5 /* Models */,
+				D25EB75327A86E4D00974DC5 /* Views */,
+				D25EB75227A86E4900974DC5 /* Controllers */,
 				D25EB73C27A86BCC00974DC5 /* Moonshot */,
 				D25EB73B27A86BCC00974DC5 /* Products */,
 			);
@@ -58,7 +61,6 @@
 			children = (
 				D25EB75127A86CF700974DC5 /* Resources */,
 				D25EB74127A86BCC00974DC5 /* ViewController.swift */,
-				D25EB74327A86BCC00974DC5 /* Main.storyboard */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -73,6 +75,28 @@
 				D25EB74B27A86BCD00974DC5 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D25EB75227A86E4900974DC5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D25EB75327A86E4D00974DC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D25EB74327A86BCC00974DC5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D25EB75427A86E5100974DC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9V3Q6X8V58;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Moonshot/Info.plist;
+				INFOPLIST_FILE = Moonshot/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -327,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9V3Q6X8V58;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Moonshot/Info.plist;
+				INFOPLIST_FILE = Moonshot/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
