@@ -18,7 +18,7 @@ class CoinController {
     static func fetchCoins(completion: @escaping (Bool) -> Void) {
         guard let baseURL = URL(string: baseURLString) else { return completion(false)}
         var coinsURL = baseURL.appendingPathComponent(keyCoinsComponent)
-        var finalURL = coinsURL.appendingPathComponent(keyCoinsComponent)
+        var finalURL = coinsURL.appendingPathComponent(keyListsComponent)
         print(finalURL)
         
         URLSession.shared.dataTask(with: finalURL) { coinData, _, error	 in
@@ -45,6 +45,5 @@ class CoinController {
                 }
             }
         }.resume()
-        
     }
 }
